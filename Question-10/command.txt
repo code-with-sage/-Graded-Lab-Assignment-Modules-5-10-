@@ -1,0 +1,3 @@
+vi signal_handling.c
+
+gcc signal_handling.c -o signal_handling

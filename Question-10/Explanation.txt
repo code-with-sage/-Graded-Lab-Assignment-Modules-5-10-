@@ -1,0 +1,6 @@
+The program first registers separate signal handlers for SIGTERM and SIGINT using the signal() function.
+The parent process then creates two child processes using fork().
+The first child sleeps for five seconds and sends a SIGTERM signal to the parent process.
+The second child sleeps for ten seconds and sends a SIGINT signal to the parent process.
+The parent process runs indefinitely using an infinite loop with pause() and reacts only when a signal is received.
+Upon receiving SIGTERM, the parent prints a message and continues running, while receiving SIGINT causes the parent to print a message and exit gracefully.
