@@ -1,0 +1,6 @@
+The script first checks whether the input file exists to avoid execution errors.
+The tr command is used to replace non-alphabetic characters with newlines, converting the text into one word per line and normalizing case.
+The longest and shortest words are identified by sorting the words and selecting the appropriate entries.
+The average word length is calculated by summing the length of each word and dividing it by the total word count.
+Unique words are determined by sorting the list of words, removing duplicates using uniq, and counting them with wc -l.
+Pipes are used throughout the script to pass output from one command to the next without creating intermediate files.

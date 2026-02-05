@@ -1,0 +1,9 @@
+vi bg_move.sh
+
+chmod +x bg_move.sh
+
+mkdir testdir
+
+vi testdir/file1.txt
+
+./bg_move.sh testdir

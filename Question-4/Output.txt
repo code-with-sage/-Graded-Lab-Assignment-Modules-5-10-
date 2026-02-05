@@ -1,0 +1,10 @@
+sage@MSI:~$ cat valid.txt
+99user@yahoo.com
+abc123@gmail.com
+john@abc.com
+
+
+sage@MSI:~$ cat invalid.txt
+user_1@test.com
+wrong@email
+hello@domain.org

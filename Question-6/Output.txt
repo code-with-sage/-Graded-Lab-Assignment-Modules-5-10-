@@ -1,0 +1,5 @@
+sage@MSI:~$ ./metrics.sh
+Longest word: tasks
+Shortest word: and
+Average word length: 6.45455
+Total number of unique words: 10

@@ -1,0 +1,5 @@
+sage@MSI:~$ ./bg_move.sh testdir
+Main script PID: 40436
+Starting background move operations...
+Moving file1.txt | PID: 40439
+All background processes completed.

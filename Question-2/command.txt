@@ -1,0 +1,9 @@
+vi sample.log
+
+vi log_analyzer.sh
+
+chmod +x log_analyzer.sh
+
+./log_analyzer.sh sample.log
+
+cat logsummary_2026-02-05.txt

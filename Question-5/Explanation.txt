@@ -1,0 +1,6 @@
+The script first checks whether both directories exist to prevent execution errors.
+It lists files in dirA and checks whether each file is missing in dirB to identify files present only in dirA.
+The same logic is applied in reverse to find files that exist only in dirB.
+For files with the same name in both directories, the cmp -s command is used to compare file contents without producing output.
+Based on the exit status of cmp, the script prints whether the file contents match or differ.
+No files are copied or modified during the comparison process.

@@ -1,0 +1,6 @@
+The script first checks whether the input file emails.txt exists to avoid runtime errors.
+The grep -E command is used with a regular expression to match valid email addresses that contain only letters and digits before @, letters after @, and end with .com.
+All matching email addresses are redirected into valid.txt.
+The sort and uniq commands are then used together to remove duplicate entries from the valid email list.
+The grep -v command extracts all lines that do not match the valid email pattern and stores them in invalid.txt.
+Redirection is used throughout the script to write the filtered results into separate output files.

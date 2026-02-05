@@ -1,0 +1,5 @@
+The script accepts a directory path as input and ensures that both the target directory and the backup directory exist by creating them if necessary.
+The process ID of the main script is printed using the $$ variable.
+Each file in the target directory is moved to the backup directory using the mv command executed in the background with &.
+The process ID of each background move operation is captured and displayed using the $! variable.
+The wait command is used to pause the script until all background file move processes have completed.

@@ -1,0 +1,7 @@
+The script first checks whether the input file exists to prevent execution errors.
+The tr command is used to convert all non-alphabetic characters into newlines and to convert all letters to lowercase, ensuring case-insensitive pattern matching.
+Regular expressions with grep are used to classify words based on their character composition.
+Words containing only vowels are matched using a pattern that allows only vowel characters.
+Words containing only consonants are matched using a consonant-only character set.
+Words that start with a consonant and contain at least one vowel are filtered in two stages to ensure both conditions are satisfied.
+The matching words are written into separate output files using redirection.

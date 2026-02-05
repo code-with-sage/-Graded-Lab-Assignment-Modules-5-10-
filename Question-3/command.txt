@@ -1,0 +1,10 @@
+vi marks.txt
+
+vi validate_results.sh
+
+chmod +x validate_results.sh
+
+./validate_results.sh
+
+
+

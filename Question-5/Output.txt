@@ -1,0 +1,9 @@
+sage@MSI:~$ ./sync.sh
+Files only in dirA:
+file1.txt
+
+Files only in dirB:
+file3.txt
+
+Common files comparison:
+file2.txt : Contents differ

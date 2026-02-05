@@ -1,0 +1,6 @@
+First, a sample log file was created using the vi editor to provide input data containing INFO, WARNING, and ERROR log entries.
+Then, a shell script was written to accept the log file name as a command-line argument and check whether the file exists and is readable.
+The script counts the total number of log entries using wc -l and counts INFO, WARNING, and ERROR messages using grep.
+The most recent ERROR message is obtained by filtering ERROR logs and selecting the last entry.
+After displaying the results on the terminal, the script generates a summary report file named logsummary_<date>.txt.
+Error handling is implemented to display meaningful messages when the input is missing or invalid.

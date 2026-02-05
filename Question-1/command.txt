@@ -1,0 +1,9 @@
+vi analyze.sh
+
+chmod +x analyze.sh
+
+./analyze.sh analyze.sh
+
+./analyze.sh .
+
+./analyze.sh randompath

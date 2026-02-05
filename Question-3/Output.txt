@@ -1,0 +1,17 @@
+sage@MSI:~$ ./validate_results.sh
+Students who failed in exactly ONE subject:
+101 Arun
+103 Charan
+105 Esha
+./validate_results.sh: line 16: [: : integer expression expected
+./validate_results.sh: line 17: [: : integer expression expected
+./validate_results.sh: line 18: [: : integer expression expected
+
+Students who passed in ALL subjects:
+102 Bina
+104 Divya
+./validate_results.sh: line 34: [: : integer expression expected
+
+Count Summary:
+Passed all subjects: 3
+Failed exactly one subject: 3

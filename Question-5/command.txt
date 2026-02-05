@@ -1,0 +1,15 @@
+mkdir dirA dirB
+
+vi dirA/file1.txt
+
+vi dirA/file2.txt
+
+vi dirB/file2.txt
+
+vi dirB/file3.txt
+
+vi sync.sh
+
+chmod +x sync.sh
+
+./sync.sh

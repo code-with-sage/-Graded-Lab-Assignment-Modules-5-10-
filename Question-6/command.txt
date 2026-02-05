@@ -1,0 +1,7 @@
+vi input.txt
+
+vi metrics.sh
+
+chmod +x metrics.
+
+./metrics.sh

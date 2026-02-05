@@ -1,0 +1,8 @@
+I used vi editor to create and open the shell script file analyze.sh which is used for editing file from terminal.
+In the script first condition is checking that only one argument is given, if not then it show error message.
+Next condition check whether the given path is exist or not before going further.
+If input is a file then script use wc command to count number of lines, words and characters.
+If input is a directory then script use find command to count total files and number of .txt files.
+I saved the file and exit from vi editor using :wq command.
+After that I used chmod command to give execute permission to the script so it can run from terminal.
+Finally I tested the script with file, directory and wrong input and script give correct output and proper error message.

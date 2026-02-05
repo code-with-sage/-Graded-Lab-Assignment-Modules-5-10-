@@ -1,0 +1,10 @@
+sage@MSI:~$ cat vowels.txt
+aeiou
+
+sage@MSI:~$ cat consonants.txt
+sky
+bcd
+
+sage@MSI:~$ cat mixed.txt
+tree
+strength

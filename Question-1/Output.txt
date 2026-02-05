@@ -1,0 +1,13 @@
+sage@MSI:~$ ./analyze.sh analyze.sh
+File Analysis:
+Lines: 33
+Words: 123
+Characters: 706
+
+sage@MSI:~$ ./analyze.sh .
+Directory Analysis:
+Total files: 9
+Text files (.txt): 0
+
+sage@MSI:~$ ./analyze.sh randompath
+Error: Path does not exist.

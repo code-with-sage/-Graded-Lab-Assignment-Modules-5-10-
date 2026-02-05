@@ -1,0 +1,6 @@
+The script reads the marks.txt file line by line using a while loop and separates each line into roll number, name, and three subject marks using the comma as a delimiter.
+For every student, a variable fail_count is initialized to zero and is incremented whenever a subject mark is less than the passing mark of 33.
+Conditional statements are used to check each subject mark and update the failure count using arithmetic operations.
+If the failure count is exactly one, the student is printed under the “failed in exactly one subject” category and the corresponding counter is increased.
+If the failure count is zero, the student is considered to have passed all subjects and the pass counter is updated.
+At the end of execution, the script prints the total number of students in each category.
