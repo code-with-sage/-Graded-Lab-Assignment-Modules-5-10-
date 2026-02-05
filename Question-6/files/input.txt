@@ -1,0 +1,2 @@
+Shell scripting is powerful and efficient
+Shell scripts automate repetitive tasks
